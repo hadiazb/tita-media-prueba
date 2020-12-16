@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -5,7 +8,7 @@
 }
 
 .Header {
-	padding: 0 100px;
+	padding: 0 80px;
 }
 
 .header {
@@ -16,9 +19,14 @@
 	align-items: center;
 }
 
+.header__logo {
+	width: 150px;
+	font-family: 'Questrial', sans-serif;
+}
+
 .header__nav {
 	height: 100%;
-	width: 500px;
+	width: 550px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -35,13 +43,12 @@
 
 .header__nav-list .item {
 	height: 100%;
-	width: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 0 3px;
-	padding: 3px 8px;
+	margin: 0 5px;
 	border-radius: 1px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .header__nav-list .item-search {
@@ -57,8 +64,14 @@
 }
 
 .header__nav-list .item a {
+	padding: 0 20px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	text-decoration: none;
-	color: black;
+	color: #838383;
+	font-size: 16px;
 }
 
 .header__nav-list .item a:hover {
