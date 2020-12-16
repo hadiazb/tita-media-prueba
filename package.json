@@ -1,0 +1,26 @@
+{
+	"name": "tita-media-test",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"start": "webpack-dev-server --open --mode development"
+	},
+	"keywords": [
+		"JavaScript"
+	],
+	"author": "Hugo Andres Diaz Bernal <hugoandresdiazbernal@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.12.10",
+		"babel-loader": "^8.2.2",
+		"copy-webpack-plugin": "^7.0.0",
+		"html-webpack-plugin": "^4.5.0",
+		"node-sass": "4.14.1",
+		"url-loader": "^4.1.1",
+		"webpack": "^5.10.3",
+		"webpack-cli": "3.3.10",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
