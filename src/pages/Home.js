@@ -1,3 +1,5 @@
+import Data from '../utils/data';
+
 const Home = () => {
 	const view = `
   <div class="home">
@@ -30,6 +32,14 @@ const Home = () => {
         <a href="#">App</a>
       </li>
     </ul>
+    <div class="gallery__grid">
+      ${Data.map((item, index) => `
+        <div class="gallery__grid-item item-${index + 1}">
+          <img src="${item.photo}" alt="${item.id}"/>
+        </div>
+      `).join('')}
+    </div>
+    <button class="gallery__button">Show Me More</button>
   </div>
   `;
 	return view;
