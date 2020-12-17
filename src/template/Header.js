@@ -7,19 +7,19 @@ const Header = () => {
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="item">
-            <a href="#">All</a>
+            <a href="#/todos">All</a>
           </li>
           <li class="item">
-            <a href="#">Branding</a>
+            <a href="#/branding">Branding</a>
           </li>
           <li class="item">
-            <a href="#">Web</a>
+            <a href="#/webs">Web</a>
           </li>
           <li class="item">
-            <a href="#">Photography</a>
+            <a href="#/photography">Photography</a>
           </li>
           <li class="item">
-            <a href="#">App</a>
+            <a href="#/apps">App</a>
           </li>
           <li class="item-search">
             <i class="fas fa-search"></i>

@@ -2,12 +2,21 @@ import Home from '../pages/Home';
 import Header from '../template/Header';
 import Footer from '../template/Footer';
 import Error404 from '../pages/Error404';
+import All from '../pages/All';
+import Branding from '../pages/Branding';
+import Photography from '../pages/Photography';
+import Web from '../pages/Web';
+import App from '../pages/App';
 import getHash from '../utils/getHash';
 import resolveRoutes from '../utils/resolveRoutes';
 
 const routes = {
 	'/': Home,
-	'/contact': 'Contact',
+	'/todos': All,
+	'/branding': Branding,
+	'/photography': Photography,
+	'/webs': Web,
+	'/apps': App,
 };
 
 const router = async () => {

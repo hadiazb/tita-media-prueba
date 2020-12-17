@@ -4,6 +4,7 @@
 - Procedimiento para deploy
 - Herramientas Usadas
 - Versión y licencia
+- Integración Continua
 
 ## Descripción del proyecto
 
@@ -11,9 +12,13 @@ Single Page Aplication en Vanilla JavaScript (Sin Frameworks).
 
 ## Liga del Proyecto corriendo en producción en un servidor de Vercel.
 
-Si no pudiste ejecutar el proyecto en local puedes contactarme con mis datsos de contacto que se encuentran al final del repo, por lo pronto puedes ver la aplicación en producción usando este link.
+Si no pudiste ejecutar el proyecto en local puedes contactarme con mis datos de contacto que se encuentran al final del repo, por lo pronto puedes ver la aplicación en producción usando este link.
 
-https://grupodot-test.vercel.app/
+https://hadiazb.github.io/tita-media-test/
+
+## Integración Continua
+
+Este proyecto cuenta con sistema de integración continua empleado Travis, que es una herramienta que permite realizar este tipo de integraciones con repositorios basados en la nube en este caso GitHub.
 
 ## Herramientas Usadas
 
