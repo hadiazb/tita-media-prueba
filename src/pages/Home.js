@@ -8,7 +8,9 @@ const Home = () => {
         Magna mundi referrentur quo, no rebum dignissim qui.
         Per quodsi accusata id, agam labores.
       </h4>
-      <button class="home__button">VIEW OUR WORK</button>
+      <a href="#/works">
+        <button class="home__button">VIEW OUR WORK</button>
+      </a>
   </div>
   <div class="gallery">
     <div class="gallery__logos">
@@ -16,7 +18,7 @@ const Home = () => {
         <i class="fas fa-th-large"></i>
       </div>
       <div class="gallery__logos-item">
-        <i class="fas fa-columns"></i>
+        <i class="material-icons md-dark">view_agenda</i>
       </div>
     </div>
     <ul class="gallery__nav-list">

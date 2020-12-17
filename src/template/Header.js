@@ -1,3 +1,5 @@
+import Mobile from '../template/Mobile';
+
 const Header = () => {
 	const view = `
     <div class="header">
@@ -25,7 +27,11 @@ const Header = () => {
             <i class="fas fa-search"></i>
           </li>
         </ul>
+        <div class="header__nav-burger" id="open">
+          <i class="material-icons md-dark">menu</i>
+        </div>
       </nav>
+      ${Mobile()}
     </div>
   `;
 	return view;
