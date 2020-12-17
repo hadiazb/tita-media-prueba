@@ -1,3 +1,5 @@
+## Prueba Sin Frameworks, segun requerimiento.
+
 # Contenido
 
 - Descripción de la prueba
@@ -14,7 +16,7 @@ Single Page Aplication en Vanilla JavaScript (Sin Frameworks).
 
 Si no pudiste ejecutar el proyecto en local puedes contactarme con mis datos de contacto que se encuentran al final del repo, por lo pronto puedes ver la aplicación en producción usando este link.
 
-https://hadiazb.github.io/tita-media-test/
+https://hadiazb.github.io/tita-media-prueba/
 
 ## Integración Continua
 
@@ -38,7 +40,7 @@ En la actualidad se cuenta con la v1.0.0, que nos permite el uso de herramientas
 
 ## Procedimiento para correr en local
 
-- Debes clonar el repositorio con el siguiente código `$ git clone https://github.com/hadiazb/tita-media-testt`
+- Debes clonar el repositorio con el siguiente código `$ git clone https://github.com/hadiazb/tita-media-prueba`
 - Luego de la descarga debes instalar node y las dependencias de npm usadas`$ node install` y `$ npm install` respectivamente.
 - Verificar versión con `$ node -v` y `$ npm -v`
 - Para correr este proyecto en local debes primero usar el script definido en el package.json `$ npm run build`, para empaquetar la aplicación con webpack, luego de estar empaquetada ejecutar el script `$ npm run start` para correr en desarrollo y en local.
