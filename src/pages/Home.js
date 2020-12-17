@@ -12,8 +12,12 @@ const Home = () => {
   </div>
   <div class="gallery">
     <div class="gallery__logos">
-      <div class="gallery__logos-item">4</div>
-      <div class="gallery__logos-item">2</div>
+      <div class="gallery__logos-item">
+        <i class="fas fa-th-large"></i>
+      </div>
+      <div class="gallery__logos-item">
+        <i class="fas fa-columns"></i>
+      </div>
     </div>
     <ul class="gallery__nav-list">
       <li class="item">
@@ -33,11 +37,13 @@ const Home = () => {
       </li>
     </ul>
     <div class="gallery__grid">
-      ${Data.map((item, index) => `
+      ${Data.map(
+				(item, index) => `
         <div class="gallery__grid-item item-${index + 1}">
           <img src="${item.photo}" alt="${item.id}"/>
         </div>
-      `).join('')}
+      `
+			).join('')}
     </div>
     <button class="gallery__button">Show Me More</button>
   </div>

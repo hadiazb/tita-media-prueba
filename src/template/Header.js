@@ -22,9 +22,7 @@ const Header = () => {
             <a href="#">App</a>
           </li>
           <li class="item-search">
-            <span class="icon-search">
-              
-            </span>
+            <i class="fas fa-search"></i>
           </li>
         </ul>
       </nav>
